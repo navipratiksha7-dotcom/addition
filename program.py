@@ -4,6 +4,10 @@ try :
 
     print(f"Addition: {a + b}")
     print(f"Substraction: {a - b}")
-    
+    print(f"Multiplication: {a * b}")
+    if b != 0:
+        print(f"Division: {a/b}")
+    else:
+        print("Division by zero is not allowed.")
 except ValueError:
-    print("Please enter valid numbers.")
+    print("Please enter valid numbers.") 
